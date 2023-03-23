@@ -1,5 +1,5 @@
-import 'ol/ol.css';
-import {Group as LayerGroup} from 'ol/layer.js';
+import 'https://petapedia.github.io/ol/v7.3.0/ol.css';
+import {Group as LayerGroup} from 'https://petapedia.github.io/ol/v7.3.0/layer.js';
 import {Map, View} from 'ol';
 import {apply} from 'ol-mapbox-style';
 

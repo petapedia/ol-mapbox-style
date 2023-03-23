@@ -1,4 +1,4 @@
-import 'ol/ol.css';
+import 'https://petapedia.github.io/ol/v7.3.0/ol.css';
 import olms from 'ol-mapbox-style';
 
 const baseUrl = 'https://api.maptiler.com/maps/basic/style.json';

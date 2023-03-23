@@ -1,8 +1,8 @@
-import 'ol/ol.css';
-import VectorLayer from 'ol/layer/Vector.js';
+import 'https://petapedia.github.io/ol/v7.3.0/ol.css';
+import VectorLayer from 'https://petapedia.github.io/ol/v7.3.0/layer/Vector.js';
 import {Map, View} from 'ol';
 import {applyStyle} from 'ol-mapbox-style';
-import {fromLonLat} from 'ol/proj.js';
+import {fromLonLat} from 'https://petapedia.github.io/ol/v7.3.0/proj.js';
 
 const layer = new VectorLayer();
 applyStyle(layer, 'data/geojson.json');

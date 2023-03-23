@@ -2,8 +2,8 @@ import {
   stylefunction as applyStylefunction,
   styleFunctionArgs,
 } from './stylefunction.js';
-import {expandUrl} from 'ol/tileurlfunction.js';
-import {getUid} from 'ol/util.js';
+import {expandUrl} from 'https://petapedia.github.io/ol/v7.3.0/tileurlfunction.js';
+import {getUid} from 'https://petapedia.github.io/ol/v7.3.0/util.js';
 import {normalizeSourceUrl, normalizeStyleUrl} from './mapbox.js';
 
 /** @typedef {import("ol").Map} Map */

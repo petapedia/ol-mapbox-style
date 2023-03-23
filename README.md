@@ -34,7 +34,7 @@ To assign style and source to a layer only, use `applyStyle()`. `mapbox://` urls
 
 ```js
 import {applyStyle} from 'ol-mapbox-style';
-import VectorTileLayer from 'ol/layer/VectorTile.js'
+import VectorTileLayer from 'https://petapedia.github.io/ol/v7.3.0/layer/VectorTile.js'
 
 const layer = new VectorTileLayer({declutter: true});
 applyStyle(layer, 'mapbox://styles/mapbox/bright-v9', {accessToken: 'YOUR_MAPBOX_TOKEN'});
@@ -46,9 +46,9 @@ There is also a low-level API available. To create a style function for individu
 
 ```js
 import {stylefunction} from 'ol-mapbox-style';
-import VectorLayer from 'ol/layer/Vector.js';
-import VectorSource from 'ol/source/Vector.js';
-import GeoJSON from 'ol/format/GeoJSON.js';
+import VectorLayer from 'https://petapedia.github.io/ol/v7.3.0/layer/Vector.js';
+import VectorSource from 'https://petapedia.github.io/ol/v7.3.0/source/Vector.js';
+import GeoJSON from 'https://petapedia.github.io/ol/v7.3.0/format/GeoJSON.js';
 
 const layer = new VectorLayer({
   source: new VectorSource({
@@ -251,7 +251,7 @@ set to `false`).
 
 ```js
 import {applyStyle} from 'ol-mapbox-style';
-import {VectorTile} from 'ol/layer.js';
+import {VectorTile} from 'https://petapedia.github.io/ol/v7.3.0/layer.js';
 
 const layer = new VectorTile({declutter: true});
 applyStyle(layer, 'https://api.maptiler.com/maps/basic/style.json?key=YOUR_OPENMAPTILES_TOKEN');

@@ -1,11 +1,11 @@
 import should from 'should';
 import sinon from 'sinon';
 
-import ImageLayer from 'ol/layer/Image.js';
-import VectorLayer from 'ol/layer/Vector.js';
-import VectorTileLayer from 'ol/layer/VectorTile.js';
-import VectorTileSource from 'ol/source/VectorTile.js';
-import {createXYZ} from 'ol/tilegrid.js';
+import ImageLayer from 'https://petapedia.github.io/ol/v7.3.0/layer/Image.js';
+import VectorLayer from 'https://petapedia.github.io/ol/v7.3.0/layer/Vector.js';
+import VectorTileLayer from 'https://petapedia.github.io/ol/v7.3.0/layer/VectorTile.js';
+import VectorTileSource from 'https://petapedia.github.io/ol/v7.3.0/source/VectorTile.js';
+import {createXYZ} from 'https://petapedia.github.io/ol/v7.3.0/tilegrid.js';
 
 import glStyle from './fixtures/osm-liberty/style.json';
 import styleEmptySprite from './fixtures/style-empty-sprite.json';
@@ -13,7 +13,7 @@ import styleInvalidSpriteURL from './fixtures/style-invalid-sprite-url.json';
 import styleInvalidVersion from './fixtures/style-invalid-version.json';
 import styleMissingSprite from './fixtures/style-missing-sprite.json';
 
-import VectorSource from 'ol/source/Vector.js';
+import VectorSource from 'https://petapedia.github.io/ol/v7.3.0/source/Vector.js';
 import {applyStyle} from '../src/apply.js';
 
 describe('applyStyle with source creation', function () {

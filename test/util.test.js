@@ -1,10 +1,10 @@
-import Map from 'ol/Map.js';
-import VectorTileLayer from 'ol/layer/VectorTile.js';
-import VectorTileSource from 'ol/source/VectorTile.js';
+import Map from 'https://petapedia.github.io/ol/v7.3.0/Map.js';
+import VectorTileLayer from 'https://petapedia.github.io/ol/v7.3.0/layer/VectorTile.js';
+import VectorTileSource from 'https://petapedia.github.io/ol/v7.3.0/source/VectorTile.js';
 import brightV9 from 'mapbox-gl-styles/styles/bright-v9.json';
 import should from 'should';
 import {Feature} from 'ol';
-import {Polygon} from 'ol/geom.js';
+import {Polygon} from 'https://petapedia.github.io/ol/v7.3.0/geom.js';
 import {
   addMapboxLayer,
   fetchResource,

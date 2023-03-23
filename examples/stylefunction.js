@@ -1,9 +1,9 @@
-import 'ol/ol.css';
-import GeoJsonFormat from 'ol/format/GeoJSON.js';
-import Map from 'ol/Map.js';
-import VectorLayer from 'ol/layer/Vector.js';
-import VectorSource from 'ol/source/Vector.js';
-import View from 'ol/View.js';
+import 'https://petapedia.github.io/ol/v7.3.0/ol.css';
+import GeoJsonFormat from 'https://petapedia.github.io/ol/v7.3.0/format/GeoJSON.js';
+import Map from 'https://petapedia.github.io/ol/v7.3.0/Map.js';
+import VectorLayer from 'https://petapedia.github.io/ol/v7.3.0/layer/Vector.js';
+import VectorSource from 'https://petapedia.github.io/ol/v7.3.0/source/Vector.js';
+import View from 'https://petapedia.github.io/ol/v7.3.0/View.js';
 
 import {stylefunction} from 'ol-mapbox-style';
 

@@ -1,5 +1,5 @@
 import mb2css from 'mapbox-to-css-font';
-import {checkedFonts, registerFont} from 'ol/render/canvas.js';
+import {checkedFonts, registerFont} from 'https://petapedia.github.io/ol/v7.3.0/render/canvas.js';
 import {createCanvas} from './util.js';
 
 const hairSpacePool = Array(256).join('\u200A');

@@ -1,19 +1,19 @@
-import Feature from 'ol/Feature.js';
-import LayerGroup from 'ol/layer/Group.js';
-import Map from 'ol/Map.js';
-import Point from 'ol/geom/Point.js';
-import RasterSource from 'ol/source/Raster.js';
-import TileSource from 'ol/source/Tile.js';
-import VectorLayer from 'ol/layer/Vector.js';
-import VectorSource from 'ol/source/Vector.js';
-import VectorTileLayer from 'ol/layer/VectorTile.js';
-import VectorTileSource from 'ol/source/VectorTile.js';
-import View from 'ol/View.js';
+import Feature from 'https://petapedia.github.io/ol/v7.3.0/Feature.js';
+import LayerGroup from 'https://petapedia.github.io/ol/v7.3.0/layer/Group.js';
+import Map from 'https://petapedia.github.io/ol/v7.3.0/Map.js';
+import Point from 'https://petapedia.github.io/ol/v7.3.0/geom/Point.js';
+import RasterSource from 'https://petapedia.github.io/ol/v7.3.0/source/Raster.js';
+import TileSource from 'https://petapedia.github.io/ol/v7.3.0/source/Tile.js';
+import VectorLayer from 'https://petapedia.github.io/ol/v7.3.0/layer/Vector.js';
+import VectorSource from 'https://petapedia.github.io/ol/v7.3.0/source/Vector.js';
+import VectorTileLayer from 'https://petapedia.github.io/ol/v7.3.0/layer/VectorTile.js';
+import VectorTileSource from 'https://petapedia.github.io/ol/v7.3.0/source/VectorTile.js';
+import View from 'https://petapedia.github.io/ol/v7.3.0/View.js';
 import backgroundNoneStyle from './fixtures/background-none.json';
 import backgroundStyle from './fixtures/background.json';
 import brightV9 from 'mapbox-gl-styles/styles/bright-v9.json';
 import should from 'should';
-import {METERS_PER_UNIT, get, toLonLat} from 'ol/proj.js';
+import {METERS_PER_UNIT, get, toLonLat} from 'https://petapedia.github.io/ol/v7.3.0/proj.js';
 import {
   apply,
   applyBackground,

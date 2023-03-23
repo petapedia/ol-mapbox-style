@@ -1,14 +1,14 @@
 import should from 'should';
 
-import Map from 'ol/Map.js';
-import TileLayer from 'ol/layer/Tile.js';
-import TileSource from 'ol/source/Tile.js';
-import VectorTileSource from 'ol/source/VectorTile.js';
+import Map from 'https://petapedia.github.io/ol/v7.3.0/Map.js';
+import TileLayer from 'https://petapedia.github.io/ol/v7.3.0/layer/Tile.js';
+import TileSource from 'https://petapedia.github.io/ol/v7.3.0/source/Tile.js';
+import VectorTileSource from 'https://petapedia.github.io/ol/v7.3.0/source/VectorTile.js';
 
 import glStyle from './fixtures/osm-liberty/style.json';
 import invalidStyle from './fixtures/style-invalid-version.json';
 
-import VectorTileLayer from 'ol/layer/VectorTile.js';
+import VectorTileLayer from 'https://petapedia.github.io/ol/v7.3.0/layer/VectorTile.js';
 import {_finalizeLayer as finalizeLayer} from '../src/apply.js';
 
 describe('finalizeLayer promise', function () {

@@ -4,22 +4,22 @@ Copyright 2016-present ol-mapbox-style contributors
 License: https://raw.githubusercontent.com/openlayers/ol-mapbox-style/master/LICENSE
 */
 
-import GeoJSON from 'ol/format/GeoJSON.js';
-import ImageLayer from 'ol/layer/Image.js';
-import Layer from 'ol/layer/Layer.js';
-import LayerGroup from 'ol/layer/Group.js';
-import MVT from 'ol/format/MVT.js';
-import Map from 'ol/Map.js';
-import Raster from 'ol/source/Raster.js';
-import Source from 'ol/source/Source.js';
-import TileGrid from 'ol/tilegrid/TileGrid.js';
-import TileJSON from 'ol/source/TileJSON.js';
-import TileLayer from 'ol/layer/Tile.js';
-import VectorLayer from 'ol/layer/Vector.js';
-import VectorSource from 'ol/source/Vector.js';
-import VectorTileLayer from 'ol/layer/VectorTile.js';
-import VectorTileSource, {defaultLoadFunction} from 'ol/source/VectorTile.js';
-import View from 'ol/View.js';
+import GeoJSON from 'https://petapedia.github.io/ol/v7.3.0/format/GeoJSON.js';
+import ImageLayer from 'https://petapedia.github.io/ol/v7.3.0/layer/Image.js';
+import Layer from 'https://petapedia.github.io/ol/v7.3.0/layer/Layer.js';
+import LayerGroup from 'https://petapedia.github.io/ol/v7.3.0/layer/Group.js';
+import MVT from 'https://petapedia.github.io/ol/v7.3.0/format/MVT.js';
+import Map from 'https://petapedia.github.io/ol/v7.3.0/Map.js';
+import Raster from 'https://petapedia.github.io/ol/v7.3.0/source/Raster.js';
+import Source from 'https://petapedia.github.io/ol/v7.3.0/source/Source.js';
+import TileGrid from 'https://petapedia.github.io/ol/v7.3.0/tilegrid/TileGrid.js';
+import TileJSON from 'https://petapedia.github.io/ol/v7.3.0/source/TileJSON.js';
+import TileLayer from 'https://petapedia.github.io/ol/v7.3.0/layer/Tile.js';
+import VectorLayer from 'https://petapedia.github.io/ol/v7.3.0/layer/Vector.js';
+import VectorSource from 'https://petapedia.github.io/ol/v7.3.0/source/Vector.js';
+import VectorTileLayer from 'https://petapedia.github.io/ol/v7.3.0/layer/VectorTile.js';
+import VectorTileSource, {defaultLoadFunction} from 'https://petapedia.github.io/ol/v7.3.0/source/VectorTile.js';
+import View from 'https://petapedia.github.io/ol/v7.3.0/View.js';
 import derefLayers from '@mapbox/mapbox-gl-style-spec/deref.js';
 import {
   METERS_PER_UNIT,
@@ -27,14 +27,14 @@ import {
   fromLonLat,
   get as getProjection,
   getUserProjection,
-} from 'ol/proj.js';
+} from 'https://petapedia.github.io/ol/v7.3.0/proj.js';
 import {
   _colorWithOpacity,
   stylefunction as applyStyleFunction,
   getValue,
 } from './stylefunction.js';
-import {bbox as bboxStrategy} from 'ol/loadingstrategy.js';
-import {createXYZ} from 'ol/tilegrid.js';
+import {bbox as bboxStrategy} from 'https://petapedia.github.io/ol/v7.3.0/loadingstrategy.js';
+import {createXYZ} from 'https://petapedia.github.io/ol/v7.3.0/tilegrid.js';
 import {
   defaultResolutions,
   fetchResource,
@@ -44,7 +44,7 @@ import {
   getZoomForResolution,
 } from './util.js';
 import {getFonts} from './text.js';
-import {getTopLeft} from 'ol/extent.js';
+import {getTopLeft} from 'https://petapedia.github.io/ol/v7.3.0/extent.js';
 import {hillshade} from './shaders.js';
 import {
   normalizeSourceUrl,
@@ -132,7 +132,7 @@ function completeOptions(styleUrl, options) {
  * **Example:**
  * ```js
  * import {applyStyle} from 'ol-mapbox-style';
- * import {VectorTile} from 'ol/layer.js';
+ * import {VectorTile} from 'https://petapedia.github.io/ol/v7.3.0/layer.js';
  *
  * const layer = new VectorTile({declutter: true});
  * applyStyle(layer, 'https://api.maptiler.com/maps/basic/style.json?key=YOUR_OPENMAPTILES_TOKEN');

@@ -1,5 +1,5 @@
-import 'ol/ol.css';
-import VectorTileLayer from 'ol/layer/VectorTile.js';
+import 'https://petapedia.github.io/ol/v7.3.0/ol.css';
+import VectorTileLayer from 'https://petapedia.github.io/ol/v7.3.0/layer/VectorTile.js';
 import {Map, View} from 'ol';
 import {applyBackground, applyStyle} from 'ol-mapbox-style';
 

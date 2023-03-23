@@ -4,13 +4,13 @@ Copyright 2016-present ol-mapbox-style contributors
 License: https://raw.githubusercontent.com/openlayers/ol-mapbox-style/master/LICENSE
 */
 
-import Circle from 'ol/style/Circle.js';
-import Fill from 'ol/style/Fill.js';
-import Icon from 'ol/style/Icon.js';
-import RenderFeature from 'ol/render/Feature.js';
-import Stroke from 'ol/style/Stroke.js';
-import Style from 'ol/style/Style.js';
-import Text from 'ol/style/Text.js';
+import Circle from 'https://petapedia.github.io/ol/v7.3.0/style/Circle.js';
+import Fill from 'https://petapedia.github.io/ol/v7.3.0/style/Fill.js';
+import Icon from 'https://petapedia.github.io/ol/v7.3.0/style/Icon.js';
+import RenderFeature from 'https://petapedia.github.io/ol/v7.3.0/render/Feature.js';
+import Stroke from 'https://petapedia.github.io/ol/v7.3.0/style/Stroke.js';
+import Style from 'https://petapedia.github.io/ol/v7.3.0/style/Style.js';
+import Text from 'https://petapedia.github.io/ol/v7.3.0/style/Text.js';
 
 import Color from '@mapbox/mapbox-gl-style-spec/util/color.js';
 import convertFunction from '@mapbox/mapbox-gl-style-spec/function/convert.js';
